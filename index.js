@@ -45,5 +45,5 @@ httpServer.listen(port, function() {
 //Parse initialize
 Parse.initialize(configEnv.PARSE_APP_ID);
 Parse.serverURL =configEnv.PARSE_SERVER_URL;
-
+ 
 require('./api/router/router.js')(app);
